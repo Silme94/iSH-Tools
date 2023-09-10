@@ -31,7 +31,7 @@ def port_scanner(target_host, start_port, end_port):
 
 if __name__ == "__main__":
     target_host = input("Enter the target host or IP address: ")
-    start_port = 1 
+    start_port = int(input("Enter Start port: "))  
     end_port = int(input("Enter End port: "))  
 
     try:
